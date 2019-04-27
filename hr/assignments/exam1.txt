@@ -1,0 +1,100 @@
+
+(조건)
+
+A. 주어진 데이터에 대해 다음과 같은 비중으로 채점 처리하고자 합니다.
+
+- assignment (과제) 30%
+
+- test (시험) 50%
+
+- lab (실습) 20%
+
+ 
+
+B. 한편 점수별 학점배정 기준은 다음과 같습니다.
+
+def grading(score): 
+
+    if score >= 90: return "A"
+
+    elif score >= 80: return "B"
+
+    elif score >= 70: return "C"
+
+    elif score >= 60: return "D"
+
+    else : return "E"
+
+ 
+
+(과업 1) 위 비중으로 가중합산한 점수에 따라 각 개인별로 
+
+A. 평균점수를 출력하고
+
+B. "A"/"B"/"C"/"D"/"E" 로 학점부여하여 출력하세요
+
+(과업 2) 이들에 대한 (학급) 전체의
+
+A. 평균점수를 출력하고
+
+B. 학급평균 학점을 "A"/"B"/"C"/"D"/"E"  중 하나로 출력하세요
+
+ 
+
+(데이터)
+
+Song = { "name":"Kwang Ho Song",
+
+          "assignment" : [92, 96, 84, 90], 
+
+          "test" : [80, 90], 
+
+          "lab" : [89, 78] 
+
+        } 
+
+         
+
+Hanks = { "name":"Tom Hanks", 
+
+         "assignment" : [90, 95, 86, 90], 
+
+         "test" : [95, 90], 
+
+         "lab" : [98, 97] 
+
+       } 
+
+ 
+
+Paice = { "name" : "Ian Paice", 
+
+          "assignment" : [77, 82, 83, 79], 
+
+          "test" : [78, 87], 
+
+          "lab" : [80, 80] 
+
+        } 
+
+          
+
+Duck = { "name" : "Trump Duck", 
+
+         "assignment" : [57, 55, 58, 41], 
+
+         "test" : [40, 50], 
+
+         "lab" : [49, 44] 
+
+       } 
+
+         
+
+Cruz = { "name" : "Cruz Tom", 
+
+        "assignment" : [89, 89, 60, 86], 
+
+        "test" : [65, 86], 
+
+        "lab" : [70, 80.6] 
